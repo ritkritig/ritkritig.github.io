@@ -1,17 +1,17 @@
-# ritkritig.github.io
-# Backend Development Lab — Experiment Index
+# Ritkriti Goyal
+# Backend Development — Lab & Theory Index
 
-This repository serves as a centralized index for the practical experiments completed as part of the **Backend Development Lab**.
+This repository serves as a centralized index for my **Backend Development coursework**, including practical lab experiments and theory implementations.
 
-Each experiment links directly to its corresponding implementation in the main **BackendDevelopment** repository.
+All source code and detailed documentation are maintained in the main **BackendDevelopment** repository.
 
-🔗 **Main Repository:** [BackendDevelopment](https://github.com/ritkritig/BackendDevelopment)
+🔗 **[Main BackendDevelopment Repository](https://github.com/ritkritig/BackendDevelopment)**
 
 ---
 
-## 🧪 Lab Experiments
+# 🧪 Backend Development Lab
 
-| Experiment | Topic | Repository Link |
+| Experiment | Topic | Link |
 |---|---|---|
 | **Experiment 1** | HTML5 Web Page — Skincare Hub | [View Experiment 1](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment1) |
 | **Experiment 7 & 8** | ES6 JavaScript To-Do Application | [View Experiment 7 & 8](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment7%2C8) |
@@ -24,209 +24,239 @@ Each experiment links directly to its corresponding implementation in the main *
 
 ---
 
-## 📚 Experiment Details
+# 📚 Backend Development Theory
 
-### 🧴 Experiment 1 — HTML5 Web Page
+The **Backend Theory** section contains lecture-wise and unit-wise implementations of the concepts covered throughout the course.
 
-**Project:** Skincare Hub
-
-A comprehensive HTML5 webpage demonstrating semantic HTML, forms, tables, multimedia, lists, interactive HTML5 elements, and basic JavaScript interaction.
-
-➡️ **[Open Experiment 1](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment1)**
+🔗 **[View Complete Backend Theory Folder](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory)**
 
 ---
 
-### ✅ Experiment 7 & 8 — ES6 JavaScript To-Do Application
+## 📖 Theory Units
 
-An interactive Todo application demonstrating modern JavaScript concepts including:
-
-- ES6 Classes
-- Arrow Functions
-- Spread Operator
-- Object Destructuring
-- `map()`
-- `filter()`
-- `forEach()`
-- DOM Manipulation
-- Event Handling
-- Event Delegation
-
-➡️ **[Open Experiment 7 & 8](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment7%2C8)**
+| Unit | Major Topics | Link |
+|---|---|---|
+| **Theory Class 1** | Introductory Backend Development Concepts | [View Theory Class 1](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/Theory_class1) |
+| **Unit 1** | Express, Flask, FastAPI, Routing, Templates, Cookies & Sessions | [View Unit 1](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/Unit1) |
+| **Unit 2** | Data Validation, ORM, ODM, PostgreSQL, MongoDB & REST APIs | [View Unit 2](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/Unit2) |
+| **Unit 3** | Express & Django Backend Development, Middleware | [View Unit 3](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/Unit3) |
+| **Unit 4** | Docker & Backend Containerization | [View Unit 4](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/unit4) |
 
 ---
 
-### 🚀 Experiment 12 — Node.js, Express.js & EJS
+## 1️⃣ Unit 1 — Backend Fundamentals & Web Frameworks
 
-A backend application demonstrating the fundamentals of server-side development using Node.js and Express.js.
+Unit 1 introduces server-side development using multiple backend frameworks and explores how requests and responses are handled by a web server.
 
-Key concepts include:
+### Topics Covered
 
-- Express Server
-- GET & POST Requests
+- Node.js
+- Express.js
+- Flask
+- FastAPI
+- EJS
+- Jinja2
+- Server creation
 - Routing
-- Route Parameters
-- Query Parameters
-- JSON Responses
-- HTTP Status Codes
-- Request Body Processing
-- EJS Server-Side Rendering
+- Path parameters
+- Query parameters
+- CRUD operations
+- Pydantic models
+- Request validation
+- Cookies
+- Sessions
+- Server-side rendering
 
-➡️ **[Open Experiment 12](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment12/nodejs-express-lab)**
-
----
-
-### 🍪 Experiment 12B — Cookies & Sessions
-
-A practical implementation of state management using **Express.js Cookies and Sessions**.
-
-The experiment demonstrates:
-
-- Creating Cookies
-- Reading Cookies
-- Deleting Cookies
-- Express Sessions
-- Session Variables
-- Visit Tracking
-- Login State
-- Logout
-- Session Destruction
-
-➡️ **[Open Experiment 12B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment12B)**
+➡️ **[Open Unit 1](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/Unit1)**
 
 ---
 
-### 🍃 Experiment 13 — MongoDB & Mongoose
+## 2️⃣ Unit 2 — Data Management & REST APIs
 
-A database integration experiment demonstrating how Node.js applications can communicate with MongoDB using Mongoose.
+Unit 2 focuses on storing, validating and managing application data while building structured backend APIs.
 
-Key concepts include:
+### Topics Covered
 
+- Pydantic validation
+- ORM
+- ODM
+- SQLAlchemy
+- SQLite
 - MongoDB
-- NoSQL Databases
-- Mongoose ODM
-- Schemas
-- Models
-- Documents
-- CRUD Operations
-- Asynchronous Database Operations
-- Persistent Data Storage
+- Mongoose
+- PostgreSQL
+- JSONB
+- CRUD operations
+- RESTful API design
+- Filtering
+- Searching
+- Pagination
+- Database relationships
+- Dependency injection
 
-➡️ **[Open Experiment 13](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment13/mongoose-demo)**
+The unit also contains a larger **FastAPI + SQLAlchemy Student Management API**.
+
+➡️ **[Open Unit 2](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/Unit2)**
 
 ---
 
-### 📝 Experiment 15 — Django Todo Application
+## 3️⃣ Unit 3 — Express & Django
 
-A database-backed Todo application developed using **Django and SQLite**.
+Unit 3 expands backend development using **Express.js and Django**.
 
-The project demonstrates:
+### Topics Covered
 
-- Django Project Structure
-- Models
+- Express APIs
+- Django project structure
+- Django applications
+- URL routing
 - Views
-- URL Routing
-- Templates
-- Django ORM
-- SQLite
-- Database Migrations
-- CRUD Operations
-- Persistent Task Storage
+- JSON responses
+- Models
+- Middleware
+- Request/response lifecycle
+- Custom request logging
 
-➡️ **[Open Experiment 15](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment15/django_todo_app)**
+The Django implementation also demonstrates custom middleware for recording request information and processing time.
 
----
-
-### 🐍 Experiment 15B — Advanced Django & API Integration
-
-An extended Django experiment exploring more advanced backend development concepts.
-
-The implementation covers:
-
-- Multiple Django Apps
-- Models & Views
-- Django Templates
-- Static Files
-- SQLite
-- Django ORM
-- External API Integration
-- JSON Responses
-- HTTP Error Handling
-- API Timeout Handling
-- Python `requests`
-- `uv` Project Management
-
-➡️ **[Open Experiment 15B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Experiment15B)**
+➡️ **[Open Unit 3](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/Unit3)**
 
 ---
 
-### 📊 Exam 01B — Eisenhower Matrix Todo Application
+## 4️⃣ Unit 4 — Docker & Containerization
 
-A complete server-side rendered task management application based on the **Eisenhower Matrix**, developed using:
+Unit 4 introduces application containerization using **Docker**.
 
-**Node.js + Express.js + EJS + MongoDB**
+A FastAPI Student API is packaged and executed inside a Docker container.
 
-Tasks are automatically classified into:
+### Topics Covered
 
-| Quadrant | Urgent | Important |
-|---|:---:|:---:|
-| 🔴 **Do** | ✅ | ✅ |
-| 🟢 **Schedule** | ❌ | ✅ |
-| 🟡 **Delegate** | ✅ | ❌ |
-| ⚪ **Eliminate** | ❌ | ❌ |
+- Docker fundamentals
+- Dockerfile
+- `.dockerignore`
+- Docker images
+- Containers
+- Python base images
+- Dependency installation
+- Port exposure
+- FastAPI
+- Uvicorn
+- Containerized backend applications
 
-The application demonstrates routing, form processing, MongoDB persistence, CRUD operations, server-side rendering, and backend business logic.
+The implementation includes endpoints such as:
 
-➡️ **[Open Exam 01B](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab/Exam01B)**
+```text
+GET /
+GET /health
+GET /students
+```
+
+➡️ **[Open Unit 4](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory/unit4)**
 
 ---
 
-## 🛠️ Technologies Covered
+# 🛠️ Technologies Covered
 
+### Languages
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+
+### Backend Frameworks
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+
+### Databases & Tools
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
 ---
 
-## 📈 Learning Progression
+# 📈 Course Learning Progression
 
 ```text
 HTML5 & Web Fundamentals
           ↓
 Modern JavaScript / ES6
           ↓
-Node.js
+Node.js & Express.js
           ↓
-Express.js & HTTP
+Flask & FastAPI
           ↓
-EJS Server-Side Rendering
+Routing & HTTP
+          ↓
+Templates
           ↓
 Cookies & Sessions
           ↓
-MongoDB & Mongoose
+Data Validation
+          ↓
+MongoDB / SQLite / PostgreSQL
+          ↓
+ORM & ODM
+          ↓
+RESTful APIs
           ↓
 Django
           ↓
-SQLite & Django ORM
+Middleware & External APIs
           ↓
-External APIs
+Docker & Containerization
           ↓
 Complete Backend Applications
 ```
 
 ---
 
-## 🔗 Repository
+# 📂 Main Repository Structure
 
-All source code, documentation, screenshots, and individual experiment READMEs are maintained in the main repository:
+```text
+BackendDevelopment/
+│
+├── Backend Lab/
+│   ├── Experiment1/
+│   ├── Experiment7,8/
+│   ├── Experiment12/
+│   ├── Experiment12B/
+│   ├── Experiment13/
+│   ├── Experiment15/
+│   ├── Experiment15B/
+│   └── Exam01B/
+│
+├── Backend Theory/
+│   ├── Theory_class1/
+│   ├── Unit1/
+│   ├── Unit2/
+│   ├── Unit3/
+│   └── unit4/
+│
+└── README.md
+```
 
-### **[→ BackendDevelopment Repository](https://github.com/ritkritig/BackendDevelopment)**
+---
+
+# 🔗 Quick Navigation
+
+### 🧪 [Backend Lab](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Lab)
+
+Practical experiments and complete backend implementations.
+
+### 📚 [Backend Theory](https://github.com/ritkritig/BackendDevelopment/tree/master/Backend%20Theory)
+
+Unit-wise theory implementations, demonstrations and backend concepts.
+
+### 💻 [Complete BackendDevelopment Repository](https://github.com/ritkritig/BackendDevelopment)
+
+Complete source code, documentation and coursework.
 
 ---
 
@@ -234,4 +264,4 @@ All source code, documentation, screenshots, and individual experiment READMEs a
 
 **Ritkriti Goyal**
 
-Backend Development Lab — Experiment Index
+Backend Development — Lab & Theory Coursework
